@@ -20,6 +20,6 @@ function milesToKilometer(miles) {
     const kilometer = miles * 1.609;
     return kilometer;
 }
-const myKilometer = 132;
+const myKilometer = 152;
 const myMiles = milesToKilometer(myKilometer);
 console.log(myMiles.toFixed(1));
